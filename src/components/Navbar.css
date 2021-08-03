@@ -138,6 +138,10 @@
     font-size: 2rem;
   }
 
+  .navbar-logo-image {
+    height: 7vh;
+  }
+
   .nav-btn {
     display: flex;
     justify-content: center;
