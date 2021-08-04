@@ -66,15 +66,18 @@
 
 .home__hero-img-wrapper {
   max-width: 555px;
+  display: flex;
+  justify-content: center;
 }
 
 .home__hero-img {
-  max-width: 95%;
+  max-width: 80%;
   margin-top: 0;
   margin-right: 0;
   margin-left: 10px;
   padding-right: 0;
   margin: 0 0 0 10px;
+  border-radius: 15px;
 }
 
 img {
