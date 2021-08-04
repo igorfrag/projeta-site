@@ -36,7 +36,7 @@
   align-items: center;
 }
 .navbar-logo-image {
-  height: 60vh;
+  height: 10vh;
 }
 .navbar-icon {
   margin-right: 0.5rem;
@@ -139,7 +139,7 @@
   }
 
   .navbar-logo-image {
-    height: 7vh;
+    height: 10vh;
   }
 
   .nav-btn {
@@ -148,5 +148,11 @@
     align-items: center;
     width: 100%;
     height: 120px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+  .navbar-logo-image {
+    height: 5vh;
   }
 }

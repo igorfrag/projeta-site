@@ -31,23 +31,13 @@ function Navbar() {
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className='navbar'>
           <div className='navbar-container container'>
-            {button ? (
-              <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                <img
-                  src='images\projetaLogo.svg'
-                  alt='Logo Projetacrilico'
-                  className='navbar-logo-image'
-                />
-              </Link>
-            ) : (
-              <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                <img
-                  src='images\logoNotext.svg'
-                  alt='Logo Projetacrilico'
-                  className='navbar-logo-image'
-                />
-              </Link>
-            )}
+            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+              <img
+                src='images\projetaLogo.svg'
+                alt='Logo Projetacrilico'
+                className='navbar-logo-image'
+              />
+            </Link>
 
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
