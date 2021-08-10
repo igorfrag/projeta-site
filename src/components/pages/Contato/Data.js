@@ -8,6 +8,6 @@ export const homeObjOne = {
   descriptionTwo: 'Email: projetacrilico@gmail.com',
   descriptionThree: 'Celular: (81) 99602-3874',
   imgStart: '',
-  img: 'images/svg-8.svg',
+  img: 'images/contactusSvg.svg',
   alt: 'Orçamento',
 };
