@@ -1,13 +1,13 @@
 import React from 'react';
-import ServiceSection from '../../ServiceSection';
-import { homeObjOne, homeObjTwo, homeObjThree } from './Data.js';
+import { ElfsightWidget } from 'react-elfsight-widget';
+import './Servicos.css';
 
 function Servicos() {
   return (
     <>
-      <ServiceSection {...homeObjOne} />
-      <ServiceSection {...homeObjTwo} />
-      <ServiceSection {...homeObjThree} />
+      <div className='instagram-widget-container'>
+        <ElfsightWidget widgetID='52b02c4c-2a91-4fc5-9200-3e15c162ed31' />
+      </div>
     </>
   );
 }
